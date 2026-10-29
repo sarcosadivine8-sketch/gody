@@ -1,0 +1,84 @@
+{
+  "tests": [
+    {
+      "name": "Student's area calculation is correct",
+      "setup": "pip install -r requirements.txt",
+      "run": "pytest tests/area.py -p no:warnings",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 2.5
+    },
+    {
+      "name": "Student's fertilizer cost calculation is correct",
+      "setup": "pip install -r requirements.txt",
+      "run": "pytest tests/fertilizer_cost.py -p no:warnings",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 2.5
+    },
+    {
+      "name": "Student's bag count calculation is correct",
+      "setup": "pip install -r requirements.txt",
+      "run": "pytest tests/bags.py -p no:warnings",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 2.5
+    },
+    {
+      "name": "Student's labor hours calculation is correct",
+      "setup": "pip install -r requirements.txt",
+      "run": "pytest tests/hours.py -p no:warnings",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 2.5
+    },
+    {
+      "name": "Student's labor cost calculation is correct",
+      "setup": "pip install -r requirements.txt",
+      "run": "pytest tests/labor_cost.py -p no:warnings",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 2.5
+    },
+    {
+      "name": "Student's total cost calculation is correct",
+      "setup": "pip install -r requirements.txt",
+      "run": "pytest tests/total_cost.py -p no:warnings",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 2.5
+    },
+    {
+      "name": "Student's nitrogen calculation is correct",
+      "setup": "pip install -r requirements.txt",
+      "run": "pytest tests/nitrogen.py -p no:warnings",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 2.5
+    },
+    {
+      "name": "Student's potassium calculation is correct",
+      "setup": "pip install -r requirements.txt",
+      "run": "pytest tests/potassium.py -p no:warnings",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 2.5
+    }
+  ]
+}
