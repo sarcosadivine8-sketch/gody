@@ -1,0 +1,94 @@
+{
+  "tests": [
+    {
+      "name": "Student's area calculation is correct",
+      "setup": "pip install -r requirements.txt",
+      "run": "pytest test_tilling_the_soil.py::test_area",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "Student's fertilizer cost calculation is correct",
+      "setup": "pip install -r requirements.txt",
+      "run": "pytest test_tilling_the_soil.py::test_fertilizer_cost",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "Student's bag count calculation is correct",
+      "setup": "pip install -r requirements.txt",
+      "run": "pytest test_tilling_the_soil.py::test_bags",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "Student's labor hours calculation is correct",
+      "setup": "pip install -r requirements.txt",
+      "run": "pytest test_tilling_the_soil.py::test_hours",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "Student's labor cost calculation is correct",
+      "setup": "pip install -r requirements.txt",
+      "run": "pytest test_tilling_the_soil.py::test_labor_cost",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "Student's total cost calculation is correct",
+      "setup": "pip install -r requirements.txt",
+      "run": "pytest test_tilling_the_soil.py::test_total_cost",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "Student's nitrogen calculation is correct",
+      "setup": "pip install -r requirements.txt",
+      "run": "pytest test_tilling_the_soil.py::test_nitrogen",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "Student's potassium calculation is correct",
+      "setup": "pip install -r requirements.txt",
+      "run": "pytest test_tilling_the_soil.py::test_potassium",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "Code is submitted to GitHub",
+      "setup": "pip install -r requirements.txt",
+      "run": "echo 'Submitted to GitHub'",
+      "input": "",
+      "output": "",
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 4
+    }
+  ]
+}
